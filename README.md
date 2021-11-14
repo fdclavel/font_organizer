@@ -1,8 +1,8 @@
 # Font (or any other file type) Organizer
 
-## Author: Fred Clavel
-## Date: 2021 Nov 12
-## Purpose: 
+### Author: Fred Clavel
+### Date: 2021 Nov 12
+### Purpose: 
 Organize loose files of the same type within multiple subfolders up to a single parent folder.
 
 
@@ -13,37 +13,40 @@ I initially created this R script as a quick process to organize and export my d
 
 The script can be used to help remedy a similar situation for any file type. For example, say you had a bunch of .ext files you wanted to organize into a single folder -  This script allows you to take a file system with those .ext files scattered around like this:
 
-`PARENT`  
-`|-- Folder1`  
-`|   |-- File1.ext`  
-`|   |-- File2.ext`  
-`|   |-- File3.ext`  
-`|   └-- File4.ext`  
-`|-- Folder2`  
-`|-- Folder3`  
-`|   └-- File5.ext`  
-`|-- Folder4`  
-`|   └-- Folder4.1`  
-`|       └-- File6.ext`  
-`|   |-- File3.ext`  
-`└-- File7.ext`  
-
+```
+PARENT
+|-- Folder1  
+|   |-- File1.ext  
+|   |-- File2.ext  
+|   |-- File3.ext  
+|   └-- File4.ext  
+|-- Folder2  
+|-- Folder3  
+|   └-- File5.ext  
+|-- Folder4  
+|   └-- Folder4.1  
+|       └-- File6.ext  
+|   |-- File3.ext  
+└-- File7.ext  
+```
 And copy all those scattered .ext files to one new folder, to turn it into this instead:
 
-`PARENT`  
-`|-- NEW_SINGLE_FOLDER`  
-`|   |-- File1.ext`  
-`|   |-- File2.ext`  
-`|   |-- File3.ext`  
-`|   |-- File4.ext`  
-`|   |-- File5.ext`  
-`|   |-- File6.ext`  
-`|   └-- File7.ext`  
-`|-- Folder1`  
-`|-- Folder2`  
-`|-- Folder3`  
-`|-- Folder4`  
-`└-- File7.ext`  
+```
+PARENT  
+|-- NEW_SINGLE_FOLDER  
+|   |-- File1.ext  
+|   |-- File2.ext  
+|   |-- File3.ext  
+|   |-- File4.ext  
+|   |-- File5.ext  
+|   |-- File6.ext  
+|   └-- File7.ext  
+|-- Folder1  
+|-- Folder2  
+|-- Folder3  
+|-- Folder4  
+└-- File7.ext  
+```
 
 ### Caveats/Things to keep in mind
 
